@@ -2,6 +2,11 @@
 
   <div class="form-group">
     <div class='col-md-offset-2 col-md-10'>
+      <%= f.label :name %>
+      <br />
+      <%= f.text_field :name, placeholder: 'Foobar' %>
+      <br />
+      <br />
       <%= f.submit nil, :class => 'btn btn-primary' %>
       <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                   posts_path, :class => 'btn btn-default' %>
