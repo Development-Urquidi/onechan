@@ -1,4 +1,11 @@
 == README
+ TO DEPLOY LOCALLY:
+ (Assuming you have Ruby on Rails installed)
+ 1) Clone repository to a local direcory
+ 2) Open terminal, navigate to project directory
+ 3) Run [rails server]
+ 4) Navigate your web browser to the port specified by the results of the server command (probably localhost:3000)
+ 
  Imageboard style website built with Rails 4.2.6 allows users to:
   -Create and save user profiles (Devise authentication)
   -Create text posts
